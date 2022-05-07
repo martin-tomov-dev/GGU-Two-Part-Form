@@ -1,0 +1,99 @@
+/*.form-wrapper select {*/
+/*outline: none !important;*/
+/*width: 100% !important;*/
+/*height: 44px !important;*/
+/*}*/
+
+
+.form-wrapper .field-list .field {
+    margin-bottom: 2px !important;
+    width: 100% !important;
+}
+
+.form-wrapper .field-list .field .field-element {
+    height: 44px !important;
+    outline: none !important;
+    width: 100% !important;
+    font: 400 14px/1 "Open Sans", sans-serif !important;
+    color: #001a3a !important;
+    background-color: #ffffff !important;
+    margin: 2px 0 4px;
+}
+
+.form-wrapper .field-list .field .field-element option {
+    /*padding: 1rem;*/
+}
+
+.form-item.checkbox > label {
+    margin: 1rem;
+}
+
+label, div {
+    color: #fff !important;
+}
+
+.form-wrapper .field-list .field .vphone {
+    padding: 0;
+    margin-top: 1.35rem;
+    background-color: transparent;
+    border: none;
+}
+
+/*.country-selector__input{*/
+/*border: none !important;*/
+/*}*/
+
+option {
+    font-size: 1rem;
+    padding: 5px !important;
+    color: black;
+}
+
+/** with the :focus here, we would show grey when not using the element *!*/
+.form-wrapper .field-list .select .field-element {
+    /*color: gold !important;*/
+}
+
+/*select {*/
+    /*-webkit-appearance: menulist-button;*/
+    /*color: black;*/
+/*}*/
+
+.form-wrapper .field-list .select .field-element:invalid {
+    color: #6d6d6c !important;
+}
+
+
+.submit-button {
+    border-radius: 4px !important;
+    font: 700 14px/1 "Urbano", sans-serif !important;
+    height: 48px !important;
+    position: relative !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    padding: 0 16px !important;
+    color: #ffffff !important;
+    background: #DE1D24 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    margin-top: 24px !important;
+    outline: none !important;
+}
+
+.lb-error{
+    padding-bottom: 10px;
+    line-height: 1;
+}
+
+.lb-error-msg {
+    color: #ff000e !important;
+    font-size: .8rem;
+}
+
+.lb-no-error{
+    display: none;
+}

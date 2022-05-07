@@ -1,0 +1,61 @@
+.lb-text-white {
+    color: #ffffff;
+}
+
+.lb-title {
+    text-align: left;
+    padding-top: 75px;
+    font: 700 2.5rem "Urbano", sans-serif !important;
+}
+
+
+.lb-form-description{
+    font: 400 14px/1.4 "Urbano", sans-serif !important;
+    letter-spacing: -0.1px !important;
+    margin: 0 auto 12px !important;
+    /*max-width: 450px !important;*/
+    color: #fff !important;
+    text-align: center !important;
+}
+
+.lb-subtitle-small{
+    font: 400 14px/1.4 "Urbano", sans-serif !important;
+    letter-spacing: -0.1px !important;
+    margin: 0 auto 12px !important;
+    /*max-width: 450px !important;*/
+    color: #fff !important;
+    text-align: left;
+}
+.lb-padding-lg-3 {
+    padding: 3rem;
+}
+
+
+.lb-center {
+    text-align: center;
+}
+
+.lb-hidden{
+    display: none;
+}
+
+.lb-capitalize{
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 767px) {
+    .lb-padding-lg-3{
+        padding: 0 !important;
+    }
+    .lb-margin-sm-5px {
+        margin: 5px;
+    }
+    .lb-title {
+        padding-top: 0;
+        text-align: center !important;
+        font: 700 1.5rem "Urbano", sans-serif !important;
+    }
+    .lb-subtitle-small{
+        text-align: center !important;
+    }
+}
