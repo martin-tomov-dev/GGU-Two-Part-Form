@@ -16,9 +16,9 @@
                                placeholder="Last name *"
                                v-model="form.lastname"/>
                     </div>
-                    <!-- <div v-bind:class="(showError && !form.lastname)? 'lb-error' : 'lb-hidden'">
+                    <div v-bind:class="(showError && !form.lastname)? 'lb-error' : 'lb-hidden'">
                         <span class="lb-error-msg">Please enter your last name</span>
-                    </div> -->
+                    </div>
                     <div class="form-item field select">
                         <!--//ggu_AreaofInterest-->
                         <select class="field-element" v-model="selectedAreaOfInterestValues">
