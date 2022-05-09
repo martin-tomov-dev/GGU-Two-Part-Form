@@ -11,11 +11,11 @@
                     <div v-bind:class="(showError && !form.firstname)? 'lb-error' : 'lb-hidden'">
                         <span class="lb-error-msg">Please enter your first name</span>
                     </div>
-                    <!-- <div class="form-item field lastname">
+                    <div class="form-item field lastname">
                         <input class="field-element field-control" type="text"
                                placeholder="Last name *"
                                v-model="form.lastname"/>
-                    </div> -->
+                    </div>
                     <div v-bind:class="(showError && !form.lastname)? 'lb-error' : 'lb-hidden'">
                         <span class="lb-error-msg">Please enter your last name</span>
                     </div>
